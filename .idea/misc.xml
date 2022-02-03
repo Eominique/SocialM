@@ -3,16 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.1" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.15" />
         <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/ic_add.xml" value="0.1" />
         <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/ic_comment.xml" value="0.1" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/ic_delete_grey.xml" value="0.1" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/ic_description.xml" value="0.1" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/ic_like_white.xml" value="0.1" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/drawable/ic_person.xml" value="0.1" />
         <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/activity_auth.xml" value="0.3138888888888889" />
         <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_comment.xml" value="0.25153374233128833" />
         <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_create_post.xml" value="0.3138888888888889" />
         <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_home.xml" value="0.3138888888888889" />
         <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_login.xml" value="0.3138888888888889" />
-        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_profile.xml" value="0.3138888888888889" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_profile.xml" value="0.25153374233128833" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_register.xml" value="0.3138888888888889" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_search.xml" value="0.3138888888888889" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/Android Project/2022/LUTY/upo/SocialM/app/src/main/res/layout/item_post.xml" value="0.2234375" />
       </map>
     </option>
   </component>

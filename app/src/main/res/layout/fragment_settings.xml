@@ -89,15 +89,15 @@
 
 
 
-    <ProgressBar
-        android:id="@+id/settingsProgressBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@+id/btnUpdateProfile"
-        app:layout_constraintEnd_toStartOf="@+id/btnUpdateProfile"
-        app:layout_constraintTop_toTopOf="@+id/btnUpdateProfile" />
+<!--    <ProgressBar-->
+<!--        android:id="@+id/settingsProgressBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/btnUpdateProfile"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/btnUpdateProfile"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/btnUpdateProfile" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
