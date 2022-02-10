@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.socialm.R
 import com.example.socialm.databinding.FragmentLoginBinding
+import com.example.socialm.other.EventObserver
 import com.example.socialm.ui.viewmodel.AuthViewModel
 
 import dagger.hilt.android.AndroidEntryPoint
@@ -22,9 +23,12 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentLoginBinding.inflate(layoutInflater)
         viewModel = ViewModelProvider(requireActivity())[AuthViewModel::class.java]
-
+        subscribeToObservers()
         binding.btnLogin.setOnClickListener {
-
+            viewModel.login(
+                binding.etEmail.text.toString(),
+                binding.etPassword.text.toString()
+            )
         }
 
         binding.tvRegisterNewAccount.setOnClickListener {
@@ -34,6 +38,15 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                 findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToRegisterFragment())
             }
         }
+    }
+
+    private fun subscribeToObservers() {
+      viewModel.loginStatus.observe(viewLifecycleOwner, EventObserver(
+
+      ){
+
+      }
+      )
     }
 
 

@@ -2,9 +2,8 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-//    id "androidx.navigation.safeargs.kotlin"
     id 'androidx.navigation.safeargs.kotlin'
-   id 'com.google.gms.google-services'
+    id 'com.google.gms.google-services'
     id 'dagger.hilt.android.plugin'
 }
 
@@ -103,14 +102,14 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1'
 
     // Android Image Cropper
-  //  api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    //  api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
 
 //image Picker
- //   implementation 'com.github.dhaval2404:imagepicker:1.8'
+    //   implementation 'com.github.dhaval2404:imagepicker:1.8'
 
     //External Libraries
- //   api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
- //   implementation "gun0912.ted:tedpermission:2.2.2"
+    //   api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    //   implementation "gun0912.ted:tedpermission:2.2.2"
 
 
 }
