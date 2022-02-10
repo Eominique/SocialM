@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482028998283",
+    "project_id": "socialm-d6ad6",
+    "storage_bucket": "socialm-d6ad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482028998283:android:b11dc50868ad3f03d7ce8e",
+        "android_client_info": {
+          "package_name": "com.example.socialm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482028998283-mbs82je930urri959uabs8q4of9j4fam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHRUBxz1OYroPKJ2N9evfABJ4nTX_SSG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482028998283-mbs82je930urri959uabs8q4of9j4fam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
